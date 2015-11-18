@@ -1,0 +1,295 @@
+DHTML or Dynamic HTML
+DHTML is a TERM describing the art of making dynamic and interactive web pages. DHTML combines HTML, JavaScript, the HTML DOM, and CSS
+
+JavaScript
+
+●	a lightweight programming language (scripting)
+●	interpreted not compiled
+●	used to make web pages interactive 	
+                      insert dynamic text into HTML (ex: user name)
+                      react to events (ex: page load user click)
+get information about a user's computer (ex: browser type)
+perform calculations on user's computer (ex: form validation)
+provide funtionalities like drag drop, form validation, .. etc.     
+
+JavaScript is THE scripting language of the Web. JavaScript is used in billions of Web pages to add functionality, validate  forms, communicate with the server, and much more. JavaScript is easy to learn. You will enjoy it
+
+Javascript code can be added to a web page in three ways: 	
+       in the page's body (runs when page loads)
+in the page's head (used for events)
+In a link to an external .js script file
+
+
+ <html>
+   <body>
+ <script type="text/javascript">
+   document.write("<h1>This is a heading</h1>");
+   document.write("<p>This is a paragraph.</p>");
+   document.write("<p>This is another paragraph.</p>");
+  </script>
+  </body>
+</html>
+
+
+
+<html>
+<body>
+<script type="text/javascript">
+for (var i = 0; i < 10; i++) {
+	document.write("<p>" + i + " squared = " +
+               	(i * i) + "</p>");
+}
+</script>
+</body>
+</html>
+
+
+Event Handling
+●	HTML elements have special attributes called events
+●	Javascript functions can be set as event handlers
+
+
+<h2 onclick=myFunction>Click me!</h2>
+
+
+
+<!-- Example 1-->
+<html>
+<head>
+<script type="text/javascript">
+function okay() {
+	document.getElementById("ok").disabled = true;
+}
+</script>
+</head>
+<body>
+<button id="ok" onclick="okay()"> Click Here</button>
+</body>
+</html>
+
+<!-- Example 2-->
+<html>
+<head>
+<script type="text/javascript">
+function okay() {
+	document.getElementById("ok").innerHTML="clicked";
+}
+</script>
+</head>
+<body>
+<button id="ok" onclick="okay()">Click Here</button>
+</body>
+</html>
+
+
+<!—A simple Javascript example to change text-->
+<html>
+<head>
+<script type="text/javascript">
+function change_header()
+{
+   document.getElementById("myHeader").innerHTML="Nice day!";
+}
+</script>
+</head>
+
+<body>
+<h1 id="myHeader">Hello World!</h1>
+<button onclick="change_header()">Change text</button>
+</body>
+</html>
+
+
+
+<!—An extended version of previous example-->
+<html>
+<head>
+<script type="text/javascript">
+x = 0
+function change_header()
+{
+if(x == 0)
+{  
+  document.getElementById("myHeader").innerHTML="Nice day!";
+   document.getElementById("b1").innerHTML="Change Back";
+  x = 1;
+}
+else
+{
+   document.getElementById("myHeader").innerHTML="Hello World!";
+   document.getElementById("b1").innerHTML="Change Text";
+   x = 0;
+}  
+}
+</script>
+</head>
+<body>
+<h1 id="myHeader">Hello World!</h1>
+<button id=b1 onclick="change_header()">Change text</button>
+</body>
+</html>
+
+
+
+
+
+
+<!—Another Example -->
+<html>
+<head>
+<script type="text/javascript">
+function change_div()
+{
+   document.getElementById("ok").innerHTML="Erased";
+}
+</script>
+</head>
+<body>
+<div id="ok">
+HELLO,
+THIS IS ALL GARBAGE CONTENT.  PLEASE PRESS THE ERASE BUTTON TO ERASE IT
+<br>
+<button onclick="change_div()">Erase</button>
+</div>
+</body>
+</html>
+
+More Examples:
+
+To change the style of the current HTML element, use the following statement:
+<html>
+<body>
+<h1 onclick="this.style.color='red'">Click Me!</h1>
+</body>
+</html>
+
+To change the style of a specific HTML element, use the following statement:
+<html>
+<body>
+<h1 id="h1" onclick="document.getElementById('h1').style.color='red'">Click Me!</h1>
+</body>
+</html>
+
+To change the background color according to sample color:
+<html>
+<head>
+<script type="text/javascript">
+function bgChange(bg)
+{
+document.body.style.background=bg;
+}
+</script>
+</head>
+<body>
+<b>Mouse over the squares and the background color will change!</b>
+<table width="300" height="100">
+ <tr>
+  <td onmouseover="bgChange('red')" 
+      onmouseout="bgChange('transparent')"
+      bgcolor="red">
+  </td>
+  <td onmouseover="bgChange('blue')" 
+      onmouseout="bgChange('transparent')"
+      bgcolor="blue">
+  </td>
+  <td onmouseover="bgChange('green')" 
+      onmouseout="bgChange('transparent')"
+      bgcolor="green">
+  </td>
+</tr>
+</table>
+</body>
+</html>
+
+
+Display the current date and time on a page:
+<html>
+<body>
+<script type="text/javascript">
+document.write(Date());
+</script>
+</body>
+</html>
+
+
+Popup boxes
+alert("message");     // message
+confirm("message");   // returns true or false
+prompt("message");    // returns user input string
+
+
+Alert Box Example
+<html>
+<head>
+<script type="text/javascript">
+function myFunction()
+{
+alert("I am an alert box!");
+}
+</script>
+</head>
+<body>
+<input type="button" onclick="myFunction()" value="Show alert box" />
+</body>
+</html>
+
+Confirm  Box Example
+<html>
+<body>
+
+<p>Click the button to display a confirm box.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script type="text/javascript">
+function myFunction()
+{
+var x;
+var r=confirm("Press a button!");
+if (r==true)
+  {
+  x="You pressed OK!";
+  }
+else
+  {
+  x="You pressed Cancel!";
+  }
+document.getElementById("demo").innerHTML=x;
+}
+</script>
+
+</body>
+</html>
+
+
+Prompt Box Example
+<html>
+<body>
+
+<p>Click the button to demonstrate the prompt box.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script type="text/javascript">
+function myFunction()
+{
+var x;
+
+var name=prompt("Please enter your name","Sandeep Jain");
+
+if (name!=null)
+  {
+  x="Hello " + name + "! How are you today?";
+  document.getElementById("demo").innerHTML=x;
+  }
+}
+</script>
+
+</body>
+</html>
+
+
