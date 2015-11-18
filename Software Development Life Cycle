@@ -1,0 +1,133 @@
+Introduction
+Software Development Life Cycle (SDLC) is a methodology that is typically used to develop, maintain and replace information systems for improving the quality of the software design and development process.  The typical phases are analysis, estimation, design, development, integration and testing and implementation.  The success of software largely depends on proper analysis, estimation, design and testing before the same is implemented.  This article discusses SDLC in detail and provides guidance for building successful software.
+The Software Development Life Cycle (SDLC) steps
+The Software Development Life Cycle is the cycle in which the business analysts, the software developers, the database designers and/or the database developers, the QA developers and end users collaborate to build the application software.  Basically, it involves designing the application from scratch, documenting everything, adding the improvements and fixing the bugs that occur in the SDLC.  It is the lifecycle of Software from concept to obsolescence.
+A quality software system is based on the following three principles:
+•         Modeling of the software development process (process)
+•         Modeling of the measurement of product (product)
+•         Modeling of the management and human interactions (people)
+The software development life cycle (SDLC) may be divided into the following steps:
+1.      Requests from customers/original idea
+2.      Creation of feature lists based on item 1
+3.      Technical design of features based on item 2
+4.      Software design and time evaluation based on item 3
+5.      Code implementation based on item 4
+6.      Software Testing
+7.      Beta release/ bug fixes
+8.      Final release
+The following section discusses each of these steps briefly.
+Requests from customers/original idea
+All the information relevant to the system and its scenarios, the occurrence and the behavior is gathered in this phase from the customer or the client who can provide the valuable information. These are basically raw facts or materials collected from the customer’s point of view by his or her observation over a period of time.
+Creation of feature lists based on item 1
+The information collected from the discussions mentioned on item1 is considered for a refinery process that varies from company-to-company depending on the standardization and the methodology that they do adopt.  It lists all the details of the proposed items in an organized manner.
+ 
+Technical design of features based on item 2
+Here the technical aspects come into the picture and the designing of those aspects in terms of computer terminology.  It involves the designing of the architecture and the sources that influence them like UML, OOAD, etc.
+Software design and time evaluation, based on item 3
+The software design phase in the software development life cycle is produced from the results of the requirements phase.  It contains detailed design of the software in terms of the interfaces that it will provide and also the relevant functionalities that have to be implemented.  It also involves the designing of the database.  In this phase it is equally important to estimate the duration required based on the number of resources available in hand.
+Code implementation, based on item 4
+The coding phase involves writing the source code based on the required functionality by adhering the coding standards, code optimization, etc. 
+Software Testing
+After developing the software it is important to ensure that the functioning of it is perfect. Software testing involves a mechanism that is used to report the bugs/undesired results that may occur in the SDLC.
+Beta release/ bug fixes
+The newly developed software will be released to undergo the tests for issues like the performance and its behavior under different circumstances.  The bugs that occurred earlier in the cycle are rectified.
+The Final release
+After the clearance of the bugs reported during the beta release, the software is now ready to be released and delivered to the customer.
+The SDLC categories
+Broadly, the SDLC steps discussed earlier can be categorized into:
+•         Requirement Specification
+•         Requirement Analysis and Design
+•         Coding and Testing
+•         Deployment and Support
+The following sections discuss these in more detail.
+Requirement Specification
+Software Requirements Specification (SRS) provides a complete description of all the functions and specifications of the software to be designed.  It extracts the functional and the nonfunctional requirements of the desired software product.  It is the initial stage in the SDLC, the first and the foremost step that has to be performed and includes the information about the requirements for the proposed system.  The requirements are pertained to such as resources, scope of the system, purpose of the system and the limitations.  This phase is also known as the feasibility study phase.  The Software Requirements Specification Document that is created in this stage, states all the necessary guidelines (the functional requirements, the nonfunctional requirements, etc.) for the immediate next phase, the design phase and the software development life cycle.  It serves as a type of Bible for the Software Design Process.
+Requirement Analysis and Design    
+After the requirements specification is over, it is analyzed for its accuracy and sufficiency.  Issues such as whether that particular proposed system will serve the purpose or not, what are the necessary constraints that have to be taken into consideration and the monitoring the management of the activities in a fashion are all carried out in a hierarchical manner which is specified in the BRS (Business Requirement Specification) document.
+The design stage takes as its initial input the requirements identified in the approved requirements document.  The Analysis and Design phases are very crucial in the software development cycle process.  This phase also includes the work assignments, costs, project schedule, and the specification of the target dates.
+Coding and Testing
+The next step consists of developing the application logic and writing the functionalities for the user interfaces on a specific action performed (known as Coding).  The coding or the development phase takes as its primary input the design elements described in the approved design document. It is to be noted that the Programmers/Developers should adhere to the required coding standards.  The code should also be optimized for the purpose of saving the valuable resources. Next in the SDLC cycle comes the testing phase.
+After the source code is generated, the testing phase begins to reveal the bugs that were committed during the previous phases.  This testing can be manual or automated using the testing tools and methodologies that are available.
+Deployment and Support
+The software that has been developed and deployed should provide adequate support for maintenance so as to cope with the bugs that can exists even after deployment of the software is over.  This can take far more time than the initial development process of the software.
+The maintenance phase of the software development life cycle should be able to accommodate the changes that can happen during the post implementation period.  A change can happen because of some unexpected input values into the system.
+The Software Process Models
+
+Software engineering follows some structured models for software development.  This section provides a generic overview of the different software development methodologies that are currently in use. 
+A Software Model describes the phases of the Software Life Cycle and the order in which those phases are executed.  The following sections discuss the following important process models:
+•         Waterfall Model
+•         Iterative Model
+•         Incremental Model
+•         Spiral Model
+Waterfall Model
+This is the most common, easy to implement and classic of all the life cycle models.  It also is referred to as a Classic Life Cycle Model or linear-sequential life cycle model.  This model places a lot of emphasis on documentation, i.e. Requirements Specification and Design Document.  In a waterfall model each phase must be completed sequentially in its entirety before the immediate next phase can begin.   A review is done after each phase to analyze whether the project is running as per the required standards, specifications and timelines.  The output of each phase is the input to the immediate next phase in this model.  This model is well suited if the project requirements are static or have been clearly stated from the beginning.  The Waterfall Model is great for specifying the individual tasks, roles, and deliverables in the project life cycle.  It is a misleading model when used for project planning because it de-emphasizes iteration and incremental delivery.
+Advantages of the Waterfall Model
+The following are the advantages of the Waterfall Model.
+•         It is very simple and easy to implement meaning it is well suited for small projects.
+•         Testing is inherent to each of the phases of this model.
+•         The model is rigid and each of the phases has certain deliverables and a review process immediately after a particular phase is over.
+Disadvantages
+The following are the disadvantages of the Waterfall Model.
+•         It is high risk.
+•         It cannot be guaranteed that one phase of this model is perfect before we move on to the immediate next phase in the model.
+•         It is not suited for long or complex projects or projects where the requirements can change.
+•         The deliverable software is produced late during the life cycle.
+Iterative Model
+The Iterative Model addresses many problems associated with the Waterfall Model.  In the Iterative Model analysis is done the same way as it is done in the Waterfall method.  Once this analysis is over, each requirement is categorized based on their priority.  These priorities are:
+•         High
+•         Low
+•         Medium
+Advantages
+The advantages of the Iterative Model are:
+•         Faster Coding, testing and Design Phases
+•         Facilitates the support for changes within the life cycle 
+Disadvantages
+The disadvantages of the Iterative Model are:
+•         More time spent in review and analysis
+•         A lot of steps that need to be followed in this model
+•         Delay in one phase can have detrimental effect on the software as a whole
+Incremental Model
+The incremental model divides the software to be developed into modules which are then developed and tested in parallel.  These modules or cycles are divided up into smaller, easily managed iterations.  Each iteration passes through the requirements, design, implementation and testing phases.  The Incremental model allows full SDLC of prototypes to be made and then tested before moving to next level.  In this model the functionality is produced and delivered to the customer incrementally.  Starting from the existing situation, we proceed towards the desired solution in a number of steps.  At each of these steps the Waterfall Model is followed.
+Advantages
+The following are the advantages of the Incremental Model.
+•         Deliverables are produced early in the software development lifecycle in each iteration.
+•         It is flexible and easy to manage
+•         Risk Management and Testing is easy
+Disadvantages
+The following are the disadvantages of the Iterative Model.
+•         Each phase of iteration is rigid and does not overlap each other.
+•         All the requirements are not gathered up front for the entire software life cycle which can create problems at the later stages in the design and development cycle.
+Spiral Model
+The Spiral Model or the Spiral Development Model combines the best of both top down and bottom up approaches and is specifically risk-driven.  It combines the features of both the prototyping and the waterfall models.  In essence the Spiral Model is a combination of the classic Waterfall Model and Risk Analysis.  It is iterative, but each iteration is designed to reduce the risk at that particular stage of the project.  The Spiral Model provides a rapid development and at the same time, incremental versions of the software application.  The Spiral model is better than the Waterfall Model in the sense that it emphasizes more on risk management while the Waterfall Model emphasizes more on the project management aspects.
+The spiral model has four phases.  These phases are as follows: 
+•         Planning
+•         Risk Analysis
+•         Engineering
+•         Evaluation
+Advantages
+The following are the advantages of the Spiral Model.
+•         It has strong support for Risk Analysis.
+•         It is well suited for complex and large projects.
+•         The deliverable is produced early in the software development life cycle.
+•         It uses prototyping as a risk reduction technique and can reduce risks in the SDLC process considerably.
+Disadvantages
+The following are the disadvantages of the Spiral Model.
+•         It is high in cost and Risk Analysis is also very difficult.
+•         It is not suited for small projects.
+•         Needs considerable Risk Assessment.
+Which Model Should I Choose?
+We discussed many models and their advantages and disadvantages.  The question that now arises is, "Which model should I choose?"  Note that we should choose the right type of the Model to implement based on the scope of the software project.  This depends on a number of factors, some of which are given below.
+•         The Scope of the Project 
+•         The Project Budget
+•         The organizational environment
+•         Available Resources
+
+
+Conclusion
+Software Development Life Cycle (SDLC) is the process of developing information systems through analysis, planning, design, implementation, integration maintenance and testing of software applications.  SDLC is also known as information systems development or application development.  The development of quality software involves the usage of a structured approach towards the design and development of the end product.  In a nutshell, the success of the SDLC process for building a successful software system rests on the following:
+•         Scope Restriction
+•         Progressive Enhancement
+•         Pre-defined Structure
+•         Incremental Planning at each of the stages
+If each of these steps can be followed in its entirety, most of the risks that evolve in the software development life cycle can be mitigated.  This article has provided a comprehensive explanation of the important and widely used Software Development Life Cycle (SDLC) phases and its models. It has also provided the advantages and disadvantages of each of these models.  Happy Reading!
+
