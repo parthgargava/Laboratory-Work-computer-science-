@@ -1,0 +1,106 @@
+Web Server:
+A computer running web server software that listens for web page requests on TCP port 80.   Examples Apache, IIS (Free with Windows XP onward)
+
+What happen when we type a URL
+●	upon entering this URL into the browser, it would: 	
+○	ask the DNS server for the IP address of www.aw-bc.com
+○	connect to that IP address at port 80
+○	ask the server for response
+○	display the resulting page on the screenWeb programming technologies
+
+CSS
+Describe the appearance, layout, and presentation of information on a web page (as opposed to HTML, which describes the content of the page)
+
+can be embedded in HTML document or placed into separate .css file 	
+●	advantage of .css file: one style sheet can be shared across many HTML documents
+
+Inline CSS  
+<html>
+  <body>
+  <h1 style={background-color:red}>  This is Inline CSS </h1>
+  </body>
+</html>
+
+
+Embedded (Usually put in header)
+selector {
+    property: value;
+    property: value;
+    ...
+    property: value;
+}
+
+p {
+    font-family: sans-serif;
+    color: red;
+}
+
+A selector can be 1) An element 
+                             2) An ID 
+                             3) A Class
+
+
+
+
+A Complete CSS example
+<!-- An element selector -->
+<html>
+  <head>
+	<style type="text/css">
+ 	body {
+   	   background-color:red;
+ 	}
+	</style>
+  </head>
+  <body>
+   The background color is set using embedded CSS
+  </body>
+</html>
+
+
+<!-- A Class selector -->
+<html>
+  <head>
+	<style type="text/css">
+  	p.special {
+   	  background-color: yellow;
+   	  font-weight: bold;
+  	}
+	</style>
+  </head>
+
+  <body>
+   <p class=special>The background color is set using embedded CSS </p>
+  </body>
+</html>
+
+
+
+<!-- ID selector-->
+<html>
+ <head>
+	<style type="text/css">
+
+            #missionstatement {
+	     font-style: italic;
+  	     font-family: serif;
+                font-size:400%
+          }
+</style>
+</head>
+
+<body>
+<p>TEST</p>
+<p id="missionstatement">
+THIS IS THE MISSION STATEMENT
+</p>
+</body>
+</html>
+
+External
+<link rel="stylesheet" type="text/css" href="style.css" />
+style.css is loaded only once and cached by the browser.
+
+
+Read and practice examples given on following link
+http://www.w3schools.com/css/css_syntax.asp
